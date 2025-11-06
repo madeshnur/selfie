@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">selfie</string>
+    <string name="title_activity_main">selfie</string>
+    <string name="package_name">com.mades.selfie</string>
+    <string name="custom_url_scheme">com.mades.selfie</string>
+</resources>
