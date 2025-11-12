@@ -13,14 +13,21 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@capacitor-community/sqlite": "^7.0.2",
     "@capacitor/android": "^7.4.4",
     "@capacitor/core": "^7.4.4",
+    "@supabase/supabase-js": "^2.80.0",
     "@tauri-apps/api": "^2",
-    "@tauri-apps/plugin-opener": "^2"
+    "@tauri-apps/plugin-opener": "^2",
+    "@tauri-apps/plugin-sql": "^2.3.1",
+    "jeep-sqlite": "^2.8.0",
+    "sql.js": "^1.13.0",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@capacitor/cli": "^7.4.4",
-    "@lucide/svelte": "^0.552.0",
+    "@internationalized/date": "^3.10.0",
+    "@lucide/svelte": "^0.544.0",
     "@sveltejs/adapter-static": "^3.0.6",
     "@sveltejs/kit": "^2.9.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
@@ -28,6 +35,9 @@
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.14",
     "@tauri-apps/cli": "^2",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/sql.js": "^1.4.9",
+    "bits-ui": "^2.14.2",
     "clsx": "^2.1.1",
     "svelte": "^5.0.0",
     "svelte-check": "^4.0.0",
